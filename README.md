@@ -13,7 +13,6 @@ SoM       | Description
 Anchor3   | ARM Cortex A7 Dual Core SoM
 Anchor5   | ARM Cortex A9 Quad Core SoM
 Anchor7   | ARM Cortex A53 Octa Core SoM
---------- | ------------------------------------------------------------
 
 AnchorDemo
 -------------
