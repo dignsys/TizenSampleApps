@@ -1,0 +1,5 @@
+set sysroot /home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headed/rootstraps/iot-headed-5.0-device.core
+set debug-file-directory /home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headed/rootstraps/iot-headed-5.0-device.core/usr/lib/debug
+set solib-search-path /home/hbahn/workspace/DSCam/Debug
+dir /home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headed/rootstraps/iot-headed-5.0-device.core/usr/src/debug
+sharedlibrary

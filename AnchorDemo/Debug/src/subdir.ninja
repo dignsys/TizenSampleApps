@@ -1,0 +1,33 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+
+ctool = clang
+cflags = -DTIZEN_DEPRECATION -DDEPRECATION_WARNING -D_DEBUG -I"../inc" -O0 -g3 -Wall -c -fmessage-length=0 -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/libxml2" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/appcore-agent" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/appfw" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/base" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/ckm" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/device" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/dlog" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/ecore-1" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/efl-1" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/eina-1" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/eina-1/eina" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/eo-1" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/gio-unix-2.0" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/glib-2.0" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/iotcon" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/iotjs" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/json-glib-1.0" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/media" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/minizip" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/network" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/notification" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/rpc-port" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/storage" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/include/system" -I"/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core/usr/lib/glib-2.0/include" -target arm-tizen-linux-gnueabi -gcc-toolchain "/home/hbahn/tizen-studio/tools/smart-build-interface/../arm-linux-gnueabi-gcc-6.2/" -ccc-gcc-name arm-linux-gnueabi-g++ -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mtune=cortex-a8 -Wno-gnu  -fPIE --sysroot="/home/hbahn/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headless/rootstraps/iot-headless-5.0-device.core" -mthumb -Werror-implicit-function-declaration
+
+build src/handle_vr3.o: build_c ../src/handle_vr3.c 
+build src/handle_vr3.o.ast: build_c_fast_ast ../src/handle_vr3.c 
+build $sareportdir/src/handle_vr3.o.xml: build_c_fast_sa src/handle_vr3.o.ast || externalFnMap.txt
+build src/handle_vr3.o.txt: build_c_api ../src/handle_vr3.c 
+build $coveragedir/src/handle_vr3.o.cov: build_cov ../src/handle_vr3.c 
+build src/main.o: build_c ../src/main.c 
+build src/main.o.ast: build_c_fast_ast ../src/main.c 
+build $sareportdir/src/main.o.xml: build_c_fast_sa src/main.o.ast || externalFnMap.txt
+build src/main.o.txt: build_c_api ../src/main.c 
+build $coveragedir/src/main.o.cov: build_cov ../src/main.c 
+build src/resource_pwm_motor.o: build_c ../src/resource_pwm_motor.c 
+build src/resource_pwm_motor.o.ast: build_c_fast_ast ../src/resource_pwm_motor.c 
+build $sareportdir/src/resource_pwm_motor.o.xml: build_c_fast_sa src/resource_pwm_motor.o.ast || externalFnMap.txt
+build src/resource_pwm_motor.o.txt: build_c_api ../src/resource_pwm_motor.c 
+build $coveragedir/src/resource_pwm_motor.o.cov: build_cov ../src/resource_pwm_motor.c 
+build src/resource_spi_gyro.o: build_c ../src/resource_spi_gyro.c 
+build src/resource_spi_gyro.o.ast: build_c_fast_ast ../src/resource_spi_gyro.c 
+build $sareportdir/src/resource_spi_gyro.o.xml: build_c_fast_sa src/resource_spi_gyro.o.ast || externalFnMap.txt
+build src/resource_spi_gyro.o.txt: build_c_api ../src/resource_spi_gyro.c 
+build $coveragedir/src/resource_spi_gyro.o.cov: build_cov ../src/resource_spi_gyro.c 
+build src/resource_uart_vr.o: build_c ../src/resource_uart_vr.c 
+build src/resource_uart_vr.o.ast: build_c_fast_ast ../src/resource_uart_vr.c 
+build $sareportdir/src/resource_uart_vr.o.xml: build_c_fast_sa src/resource_uart_vr.o.ast || externalFnMap.txt
+build src/resource_uart_vr.o.txt: build_c_api ../src/resource_uart_vr.c 
+build $coveragedir/src/resource_uart_vr.o.cov: build_cov ../src/resource_uart_vr.c 
